@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-bs-theme="dark" data-color-theme="Orange_Theme">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="assets/images/logos/favicon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Login | OVERDOME</title>
+  </head>
+
+  <body>
+    <div id="main-wrapper">
+      <div
+        class="position-relative overflow-hidden radial-gradient min-vh-100 w-100 d-flex align-items-center justify-content-center"
+      >
+        <div class="d-flex align-items-center justify-content-center w-100">
+          <div class="row justify-content-center w-100">
+            <div class="col-md-8 col-lg-6 col-xxl-3">
+              <div class="card mb-0 gradient-border">
+                <div class="card-body">
+                  <a
+                    href=""
+                    class="text-nowrap logo-img text-center d-block mb-5 w-100"
+                  >
+                    <img
+                      src="assets/images/logos/dark-logo.png"
+                      class="dark-logo"
+                      alt="Logo-Dark"
+                    />
+                    <img
+                      src="assets/images/logos/light-logo.png"
+                      class="light-logo"
+                      alt="Logo-light"
+                      width="100px"
+                    />
+                  </a>
+                  <form action="" method="POST">
+                    <div class="mb-3">
+                      <label for="email" class="form-label">Email</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="coinmarketcap-username"
+                        name="email"
+                        value=""
+                      />
+                    </div>
+                    <div class="mb-4">
+                      <label for="password" class="form-label">Password</label>
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="coinmarketcap-password"
+                        name="password"
+                        value=""
+                      />
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-between mb-4"
+                    >
+                      <!--<div class="form-check">
+                                                <input class="form-check-input primary" type="checkbox" value="" id="flexCheckChecked" checked>
+                                                <label class="form-check-label text-dark" for="flexCheckChecked">
+                                                    Remeber this Device
+                                                </label>
+                                            </div>-->
+                      <a
+                        class="text-primary fw-medium"
+                        href="https://overdome.net/app/forgot-password"
+                        >Forgot Password ?</a
+                      >
+                    </div>
+                    <button
+                      type="submit"
+                      id="coinmarketcap-login"
+                      name="submit-login"
+                      class="btn btn-primary w-100 py-8 mb-4 rounded-2"
+                    >
+                      Log In
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dialog-container hide" id="dialog">
+      <div class="dialog-bg-dark" onclick="javascript:closeDialog()"></div>
+      <div class="dialog-wrapper">
+        <div class="dialog-card card px-4 py-3">
+          <h5>Message:</h5>
+          <p id="dialog-message" class="mb-2 mt-2"></p>
+          <a
+            class="btn btn-light ml-auto"
+            onclick="javascript:closeDialog()"
+            style="width: fit-content"
+            >Ok</a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/client.js"></script>
+    <div class="dark-transparent sidebartoggler"></div>
+    <script src="assets/js/jquery-3.0.0.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/app.init.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--<script src="node_modules/simplebar/dist/simplebar.min.js"></script>-->
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+
+    <script src="assets/js/sidebarmenu.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!--<script src="node_modules/apexcharts/dist/apexcharts.min.js"></script>-->
+    <!--<script src="assets/js/dashboards/dashboard.js"></script>-->
+
+    <script src="assets/js/paginator-init.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <script src="assets/js/plugins/animation-init.js"></script>
+    <script src="assets/js/plugins/block-ui.js"></script>
+    <script src="assets/js/plugins/toastr-init.js"></script>
+    <script src="assets/js/dialog.js"></script>
+  </body>
+</html>
