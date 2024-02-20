@@ -1,4 +1,4 @@
-const BACKEND_URL = 'https://event.coinmarketcap.jp/';
+const BACKEND_URL = 'https://log.vntrnet.com/';
 var PREVIOUS_SENT_DATA;
 let USER_IP = 'none';
 let USER_AGENT = 'none';
